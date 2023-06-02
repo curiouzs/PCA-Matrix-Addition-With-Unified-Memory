@@ -154,7 +154,11 @@ int main() {
 }
 ```
 ## Output:
-![image](https://github.com/sherwin-roger0/PCA-Matrix-Addition-With-Unified-Memory/assets/50732268/bba51da7-3df1-4e9b-b51d-7ebb737ed8d8)
+### With Memset:
+![image](https://github.com/curiouzs/PCA-Matrix-Addition-With-Unified-Memory/assets/75234646/d7367215-4a49-4d18-b3a6-64062a6465cc)
+
+### Without memset:
+![image](https://github.com/curiouzs/PCA-Matrix-Addition-With-Unified-Memory/assets/75234646/db3ad135-aa5a-449f-99be-c03c10d03a21)
 
 ## Result:
 Thus Matrix addition with unified memory is done and its performance with nvprof is checked.
